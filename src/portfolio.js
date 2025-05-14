@@ -171,17 +171,17 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
-    {
-      role: "Software Engineer",
-      company: "Nomadech Solutions",
-      companylogo: require("./assets/images/nomadechSolutions.jpg"),
-      date: "October 2023 – Present",
-      desc: "",
-      descBullets: [
-        "Designed and developed responsive front-end of web applications using HTML, CSS, JavaScript, and frameworks like React and Angular.",
-        "Ensured compatibility and performance across various browsers and devices through rigorous testing and debugging, following best practices for web performance optimization."
-      ]
-    },
+    // {
+    //   role: "Software Engineer",
+    //   company: "Nomadech Solutions",
+    //   companylogo: require("./assets/images/nomadechSolutions.jpg"),
+    //   date: "October 2023 – Present",
+    //   desc: "",
+    //   descBullets: [
+    //     "Designed and developed responsive front-end of web applications using HTML, CSS, JavaScript, and frameworks like React and Angular.",
+    //     "Ensured compatibility and performance across various browsers and devices through rigorous testing and debugging, following best practices for web performance optimization."
+    //   ]
+    // },
     {
       role: "Software Engineer",
       company: "IOMechs",
