@@ -23,10 +23,10 @@ const greeting = {
   username: "Hammad Saeed Khan",
   title: "Hi all, I'm Hammad",
   subTitle: emoji(
-    "A passionate Front-End focused Software Engineer 🚀 having an experience of building Web and Mobile applications with JavaScript, TypeScript, React.js, React Native, Angular and some other cool libraries and frameworks."
+    "A passionate Front-End focused Full Stack Software Engineer 🚀 having an experience of building Web and Mobile applications with JavaScript, TypeScript, React.js, React Native, Angular and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1HWT1G9yYQcYoWn0TxhcwubtAd_yKY1c_/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1gEDgJYdmKh-Ujpfl4TGFbg9tEVCLeaKM/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -129,7 +129,7 @@ const educationInfo = {
       schoolName: "Universität Siegen",
       logo: require("./assets/images/uni_siegen_logo.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "October 2023 - October 2025",
+      duration: "October 2023 - October 2026",
       desc: "",
       descBullets: [
       ]
@@ -151,16 +151,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Front-end development", //Insert stack or technology you have experience in
-      progressPercentage: "95%" //Insert relative proficiency in percentage
-    },
-    {
       Stack: "JavaScript/TypeScript",
       progressPercentage: "90%"
     },
     {
-      Stack: "Webpack",
-      progressPercentage: "85%"
+      Stack: "Fullstack Development", //Insert stack or technology you have experience in
+      progressPercentage: "90%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Golang",
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -171,17 +171,17 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
-    // {
-    //   role: "Software Engineer",
-    //   company: "Nomadech Solutions",
-    //   companylogo: require("./assets/images/nomadechSolutions.jpg"),
-    //   date: "October 2023 – Present",
-    //   desc: "",
-    //   descBullets: [
-    //     "Designed and developed responsive front-end of web applications using HTML, CSS, JavaScript, and frameworks like React and Angular.",
-    //     "Ensured compatibility and performance across various browsers and devices through rigorous testing and debugging, following best practices for web performance optimization."
-    //   ]
-    // },
+    {
+      role: "Full Stack Engineer",
+      company: "trivago N.V.",
+      companylogo: require("./assets/images/trivago.jpg"),
+      date: "August 2025 – Present",
+      desc: "",
+      descBullets: [
+        "Developing and maintaining trivago's Developer Platform using ReactJS, TailwindCSS, and TypeScript, ensuring high performance and reliability.",
+        "Participating in Agile ceremonies, providing technical input in sprint planning, and contributing to architecture discussions."
+      ]
+    },
     {
       role: "Software Engineer",
       company: "IOMechs",

@@ -1,16 +1,16 @@
-import React, {useContext} from "react";
-import {Fade} from "react-reveal";
+import React, { useContext } from "react";
+import { Fade } from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.scss";
 import landingPerson from "../../assets/lottie/landingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-import {illustration, greeting} from "../../portfolio";
+import { illustration, greeting } from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Greeting() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
   if (!greeting.displayGreeting) {
     return null;
   }
@@ -41,8 +41,8 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    href={require("./Hammad_Saeed_Khan_Software_Development_Engineer_Resume.pdf")}
-                    download="Hammad_Saeed_Khan_Software_Development_Engineer_Resume.pdf"
+                    href={require("./Hammad-Saeed-Khan-Resume-Software-Engineer.pdf")}
+                    download="Hammad-Saeed-Khan-Resume-Software-Engineer.pdf"
                     className="download-link-button"
                   >
                     <Button text="Download my resume" />
